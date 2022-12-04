@@ -9,8 +9,8 @@ Scripts para facilitar la instalación de diversas aplicaciones.
 - Asignar permisos y ejecutar el script:
   
   ~~~sh
-  chmod u+x archivo_install.sh
-  ./archivo_install.sh
+  chmod u+x <nombre_archivo_instalador>
+  ./<nombre_archivo_instalador>
   ~~~
 
 ## Instaladores

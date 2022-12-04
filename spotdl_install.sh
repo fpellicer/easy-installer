@@ -32,10 +32,6 @@ python3 -m pip install --upgrade --user testresources
 echo "[+] Instalando paquete spotdl..."
 python3 -m pip install --upgrade --user spotdl
 
-echo "[+] Creando alias para spotdl -> spotify..."
-echo 'alias spotify="${HOME}/.local/bin/spotdl"' >> "${HOME}/.bash_aliases"
-source "${HOME}/.bash_aliases"
-
 # Abre spotDL Web para poder acceder al icono de la aplicación
 echo -e "\n[!] Ahora se abrirá la interfaz web de spotDL, debe cerrar la pestaña para finalizar la instalación."
 echo "    Si no desea proseguir con la instalación del lanzador, pulse n para finalizar."
@@ -92,7 +88,7 @@ cat <<EOF
 Instrucciones de uso:
   
 Descargar una playlist:
-  spotify <url_playlist>
+  spotdl <url_playlist>
 
 Lanzador spotDL en:
   Menú de aplicaciones > Internet
